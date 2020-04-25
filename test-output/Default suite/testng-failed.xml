@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ittrident.test.MonicaTest">
+        <methods>
+          <include name="taskTest" invocation-numbers="0"/>
+          <include name="taskTestPOST"/>
+          <include name="taskTestDelete" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="clean"/>
+          <include name="taskTestUpdate"/>
+        </methods>
+      </class> <!-- com.ittrident.test.MonicaTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
